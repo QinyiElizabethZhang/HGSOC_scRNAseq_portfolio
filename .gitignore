@@ -1,0 +1,27 @@
+# R / RStudio
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# renv local library
+renv/library/
+renv/staging/
+
+# Raw and processed data
+data/raw/*
+data/processed/*
+
+# Keep README files inside empty folders
+!data/raw/README.md
+
+# Large output files
+*.rds
+*.h5
+*.h5ad
+*.mtx
+*.tsv.gz
+*.csv.gz
+
+# macOS
+.DS_Store
